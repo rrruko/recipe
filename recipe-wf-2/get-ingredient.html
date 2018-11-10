@@ -1,0 +1,187 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Get ingredient</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+<style>
+    .sidebar {
+        width: 20%;
+        float: left;
+    }
+
+    .results {
+        padding-left: 1em;
+        width: 80%;
+        float: right;
+    }
+
+</style>
+</head>
+<body>
+    <section class="section">
+        <div class="container">
+        <nav class="navbar" role="navigation">
+            <div class="navbar-brand">
+                <a class="title" href="#">Communicart</a>
+                <a role="button" class="navbar-burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+            </div>
+            <div class="navbar-menu">
+                <div class="navbar-start">
+
+                </div>
+                <div class="navbar-end">
+                    <a class="navbar-item">
+                        Schedule
+                    </a>
+                    <a class="navbar-item">
+                        Account
+                    </a>
+                    <a class="navbar-item">
+                        Cart
+                    </a>
+                    <a class="navbar-item">
+                        Logout
+                    </a>
+                </div>
+            </div>
+        </nav>
+
+            <h1 class="title">
+                Producers selling bees
+            </h1>
+            <h2 class="subtitle">
+                <a href="recipe-list.html">&lt; go back</a>
+            </h2>
+
+            <aside class="menu filter-opts">
+                <p class="menu-label">Filter results</p>
+            </aside>
+
+            <nav class="sidebar">
+              <form>
+                <div class="filter-opt">
+                <div class="control">
+                <input type="checkbox">
+                  Require delivery option
+                </div>
+                </div>
+                <div class="filter-opt">
+                <div class="control">
+                <input type="checkbox">
+                  Require pickup option
+                </div>
+                </div>
+                <div class="field">
+                    <div class="control">
+                        Price range:
+                        <input class="input" type="text" placeholder="$0-$100">
+                    </div>
+                </div>
+
+
+                <div class="field has-addons">
+                    <div class="control">
+                        <input class="input" type="text" placeholder="Filter producers">
+                    </div>
+                    <div class="control">
+                        <a class="button is-info">
+                            Go
+                        </a>
+                    </div>
+                </div>
+              </form>
+            </nav>
+
+            <section class="results">
+
+ 
+            <div class="box">
+                <article class="media">
+                    <div class="media-left">
+                        <figure class="image is-128x128">
+                            <img src="https://bulma.io/images/placeholders/128x128.png" alt="Image">
+                        </figure>
+                    </div>
+                    <div class="media-content">
+                        <div class="content">
+                            <p>
+                                <strong>Bhargock Grungler</strong>
+                                <small>1 mile away</small>
+                                <small> / Rating 133</small>
+                                <br>
+                                $10000 / share
+                                <br>
+                                Delivery OK / Pickup OK
+                                <div class="button">
+                                    See purchase options
+                                </div>
+                            </p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <div class="box">
+                <article class="media">
+                    <div class="media-left">
+                        <figure class="image is-128x128">
+                            <img src="https://bulma.io/images/placeholders/128x128.png" alt="Image">
+                        </figure>
+                    </div>
+                    <div class="media-content">
+                        <div class="content">
+                            <p>
+                                <strong>Wegheak Grumbulon</strong>
+                                <small>5 miles away</small>
+                                <small> / Rating 0</small>
+                                <br>
+                                $9000 / share
+                                <br>
+                                No delivery / Pickup OK
+                                <div class="button">
+                                    See purchase options
+                                </div>
+                            </p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+ 
+            <div class="box">
+                <article class="media">
+                    <div class="media-left">
+                        <figure class="image is-128x128">
+                            <img src="https://bulma.io/images/placeholders/128x128.png" alt="Image">
+                        </figure>
+                    </div>
+                    <div class="media-content">
+                        <div class="content">
+                            <p>
+                                <strong>Bjorg Heapmaker</strong>
+                                <small>12 miles away</small>
+                                <small> / Rating -754894389</small>
+                                <br>
+                                $11000 / share
+                                </br>
+                                Delivery OK / Pickup OK
+                                <div class="button">
+                                    See purchase options
+                                </div>
+                            </p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            </section>
+
+        </section>
+</body>
+</html>
